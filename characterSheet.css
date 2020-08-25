@@ -1,0 +1,190 @@
+/*   ******************************************************   */
+/*         Fiche personnage Roll20 pour Naruto Shinobi        */
+/*                        Créé par maldragan                  */
+/*                             Aout 2020                      */
+/*   ******************************************************   */
+
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+@font-face {
+    font-family:"SF_Shai";
+    src:url('https://github.com/maldragan/Roll20-FR-Naruto-sheet-character/blob/master/Typo/SF%20Shai%20Fontai%20Extended%20Oblique.ttf?raw=true');
+}
+@font-face {
+    font-family:"bushido";
+    src:url('https://github.com/maldragan/Roll20-FR-Naruto-sheet-character/blob/master/Typo/Roboto-Regular.ttf?raw=true');
+}
+
+
+.charsheet {
+   position:absolute;
+   background-image:url("https://raw.githubusercontent.com/maldragan/Roll20-FR-Naruto-sheet-character/master/Fiche-Perso-Shinobi.png");
+   background-repeat: no-repeat;
+   width:1205px;
+   height:850px;
+   background-color:white;
+   border:1px solid black;
+   
+}
+
+button{
+    position:absolute;
+    width:20;
+}
+
+input{
+    padding-left:3px;
+    font-family:bushido;
+    font-size:16px;
+    position:absolute;
+    font-weight:bold;
+}
+select{
+    
+    font-family:bushido;
+    font-size:14px;
+    position:relative;
+    font-weight:bold;
+    height:20px;
+}
+
+
+textarea{
+    font-family:bushido;
+    font-size:16px;
+    position:absolute;
+    font-weight:bold;
+}
+
+.sheet-iPetit{
+    width:30px;
+    
+}
+
+.sheet-iLine{
+    border-top:0px solid black;
+    border-left:0px solid black;
+    border-right:0px solid black;
+    background-color:transparent;
+}
+
+.sheet-iNoBorder{
+    border:0px solid black;
+    background-color:transparent;
+}
+
+.sheet-iNombre{
+    font-family:arial;
+    font-size:24px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.sheet-Cyan{
+    color:#568694;
+}
+
+.sheet-Red{
+    color:#a45966;
+}
+
+.sheet-Vert{
+    color:#5c806e;
+}
+
+.sheet-Bleu{
+    color:#6c74ab;
+}
+
+.sheet-taFormat2{
+    overflow-x:hidden;
+    overflow-y:scroll;
+    repeat:no-repeat;
+    width:400px;
+}
+
+.sheet-technic{
+    position:absolute;
+    /*border:1px solid black;*/
+    width:620px;
+    height:355px;
+    max-height:355px;
+    top:475px;
+    left:15px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+     font-family:bushido;
+    font-size:16px;
+    font-weight:bold;
+    
+}
+.sheet-row:nth-child(odd){
+    background-color:rgba(249,180,150,0.5);
+}
+.repitem:nth-child(even){
+    background-color:rgba(249,180,150,0.5);
+}
+.sheet-TechnicCol1{
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    text-align:right;
+    
+    width:339px;
+}
+.sheet-TechnicCol2{
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    text-align:center;
+    padding:0;
+    width:55px;
+}
+.sheet-TechnicCol3{
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    text-align:center;
+    padding:0;
+    width:45px;
+}
+.sheet-TechnicCol4{
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    text-align:center;
+    padding:0;
+    width:100px;
+}
+.sheet-TechnicCol5{
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    text-align:center;
+    padding:0;
+    width:40px;
+}
+
+.sheet-taFormat{
+    height: 40px; 
+    font-size: 14px; 
+    resize:none; 
+    background-color:white;
+    position: absolute;
+    width: 185px;
+}
+.sheet-taFormat2{
+    height: 100px; 
+    font-size: 14px; 
+    resize:none; 
+    position: absolute;
+    width: 380;
+    overflow-y:scroll;
+}
+
+.sheet-Centrer{
+    text-align:center;
+}
+.sheet-Droite{
+    text-align:right;
+}
